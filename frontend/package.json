@@ -1,0 +1,37 @@
+{
+  "name": "graphql-apollo-client-frontend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeez-syed/graphql-apollo-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafeez-syed/graphql-apollo-client/issues"
+  },
+  "homepage": "https://github.com/hafeez-syed/graphql-apollo-client#readme",
+  "dependencies": {
+    "apollo-boost": "0.1.22",
+    "graphql": "14.0.2",
+    "react": "16.6.3",
+    "react-apollo": "2.3.2",
+    "react-dom": "16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

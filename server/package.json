@@ -1,0 +1,30 @@
+{
+  "name": "graphql-apollo-client-server",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js",
+    "start:slow": "NODE_ENV=development nodemon index.js 1400",
+    "seed": "NODE_ENV=development node models/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeez-syed/graphql-apollo-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafeez-syed/graphql-apollo-client/issues"
+  },
+  "homepage": "https://github.com/hafeez-syed/graphql-apollo-client#readme",
+  "dependencies": {
+    "apollo-server": "2.2.6",
+    "graphql": "14.0.2",
+    "nedb-promise": "2.0.1",
+    "ramda": "0.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.7"
+  }
+}
