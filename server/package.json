@@ -19,12 +19,12 @@
   },
   "homepage": "https://github.com/hafeez-syed/graphql-apollo-client#readme",
   "dependencies": {
-    "apollo-server": "2.2.6",
-    "graphql": "14.0.2",
+    "apollo-server": "2.14.2",
+    "graphql": "15.0.0",
     "nedb-promise": "2.0.1",
-    "ramda": "0.26.1"
+    "ramda": "0.27.0"
   },
   "devDependencies": {
-    "nodemon": "1.18.7"
+    "nodemon": "2.0.4"
   }
 }
